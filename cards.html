@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <title>Elije tus cards Pokemón</title>
+</head>
+<body>
+    <p>Puedes llevar hasta 10 stickers en total</p>
+    <div class="cards-pokemon">
+      <div>
+        <img src="./assests/img/bolvasaur.jpg" alt=""/>
+        <form id="formUno">
+          <input type="number" min="0" max="15" id="cardUno" placeholder="Agrega la cantidad"/>
+        </form>
+      </div>
+      <div>
+        <img src="./assests/img/charmander.jpg" alt=""/>
+        <form id="formDos">
+          <input type="number" min="0" max="15" id="cardDos" placeholder="Agrega la cantidad"/>
+        </form>
+      </div>
+      <div>
+        <img src="./assests/img/squartur.jpg" alt=""/>
+        <form id="formTres">
+          <input type="number" min="0" max="15" id="cardTres" placeholder="Agrega la cantidad"/>
+        </form>
+      </div>
+    </div>
+    <p><span id="mensajeCards"></span></p>
+    <button id="pagarCards">pagar</button>
+    <a href="./imagen.html">Anterior desafío</a>
+    <a href="./password.html">Siguiente desafío</a>
+    <script src="./assests/js/cards.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-machupicchu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-machupicchu img{
+    width: 25em;
+    height: 20em;
+}
+
+.password {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.cards-pokemon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.cards-pokemon div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.cards-pokemon div img {
+    width: 20em;
+    height: 12em;
+}
+
+.cards-pokemon div input {
+    width: 10em;
+}
