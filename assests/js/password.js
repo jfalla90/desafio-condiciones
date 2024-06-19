@@ -13,10 +13,10 @@ function validarPassword() {
     let pass2 = num1.value + num2.value + num3.value ;
 
     if (pass1 === "911") {
-        mensaje.textContent = "Password 1 correcto"
+        mensaje.textContent = "Password 1 correcto";
     } else if (pass2 === "714") {
-        mensaje.textContent = "Password 2 correcto"
+        mensaje.textContent = "Password 2 correcto";
     } else {
-        mensaje.textContent = "Password inválido"
+        mensaje.textContent = "Password inválido";
     }
-}
+};
